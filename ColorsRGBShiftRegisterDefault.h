@@ -1,0 +1,28 @@
+#ifndef COLORSRGBSHIFTREGISTER_H
+#define COLORSRGBSHIFTREGISTER_H
+
+#define LED_1_RED       B00000001 
+#define LED_1_GREEN     B00000010
+#define LED_1_BLUE      B00000100
+#define LED_1_YELLOW    LED_1_RED | LED_1_GREEN
+#define LED_1_MAGENTA   LED_1_RED | LED_1_BLUE
+#define LED_1_CYAN      LED_1_GREEN |LED_1_BLUE
+#define LED_1_WHITE     LED_1_RED | LED_1_GREEN | LED_1_BLUE
+#define LED_1_ALL       LED_1_WHITE
+
+#define LED_2_RED       B00001000
+#define LED_2_GREEN     B00010000
+#define LED_2_BLUE      B00100000
+#define LED_2_YELLOW    LED_2_RED | LED_2_GREEN
+#define LED_2_MAGENTA   LED_2_RED | LED_2_BLUE
+#define LED_2_CYAN      LED_2_GREEN |LED_2_BLUE
+#define LED_2_WHITE     LED_2_RED | LED_2_GREEN | LED_2_BLUE
+#define LED_2_ALL       LED_2_WHITE
+
+//only 2 bits
+#define LED_3_RED       B01000000
+#define LED_3_GREEN     B10000000
+#define LED_3_YELLOW    LED_3_RED | LED_3_GREEN
+#define LED_3_ALL       LED_3_YELLOW
+
+#endif

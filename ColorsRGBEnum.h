@@ -1,0 +1,35 @@
+#ifndef COLORSRGBENUM_H
+#define COLORSRGBENUM_H
+
+enum ColorsRGBEnum{
+    RED,
+    GREEN,
+    BLUE,
+    YELLOW,
+    MAGENTA,
+    CYAN,
+    WHITE,
+    ALL,
+
+    RED_BLINK_ON,
+    GREEN_BLINK_ON,
+    BLUE_BLINK_ON,
+    YELLOW_BLINK_ON,
+    MAGENTA_BLINK_ON,
+    CYAN_BLINK_ON,
+    WHITE_BLINK_ON,
+    ALL_BLINK_ON,
+
+    RED_BLINK_OFF,
+    GREEN_BLINK_OFF,
+    BLUE_BLINK_OFF,
+    YELLOW_BLINK_OFF,
+    MAGENTA_BLINK_OFF,
+    CYAN_BLINK_OFF,
+    WHITE_BLINK_OFF,
+    ALL_BLINK_OFF,
+    
+    OFF
+};
+
+#endif
